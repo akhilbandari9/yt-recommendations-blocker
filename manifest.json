@@ -1,0 +1,13 @@
+{
+	"name": "Youtube Focus Mode",
+	"version": "1.0.0",
+	"description": "hides recommendations",
+	"manifest_version": 3,
+	"author": "Akhil Bandari",
+	"action": {},
+	"permissions": ["activeTab", "scripting", "webNavigation"],
+	"host_permissions": ["https://www.youtube.com/"],
+	"background": {
+		"service_worker": "script.js"
+	}
+}
